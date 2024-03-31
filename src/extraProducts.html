@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товары</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Not musical instruments
+                    <img src="/assets/pics/hammer.png" alt="https://www.flaticon.com/ru/free-icons" width="30"
+                        height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="bi-house"></i>
+                                Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html"><i class="bi bi-box-seam"></i> Товары</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="bi bi-briefcase"></i> О нас</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Фото</th>
+                <th scope="col">Название</th>
+                <th scope="col">Описание</th>
+                <th scope="col">Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><img src="assets/pics/product3.jpg" class="product-image"></td>
+                <td>Бульдозер ДСТ-Урал D20</td>
+                <td>Если бы снег весил в 10 раз больше, то он бы всё равно
+                    справился</td>
+                <td><button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                    <i class="bi bi-cart"></i> <span class="d-none d-md-inline">31 860 009 р.</span>
+                </button></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>   <img src="assets/pics/product2.jpg" class="product-image"></td>
+                <td>Ножовка по дереву</td>
+                <td>Если целого бруска много, то можно распилить</td>
+                <td><button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                    <i class="bi bi-cart"></i> <span class="d-none d-md-inline">250</span>
+                </button></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><img src="assets/pics/product1.jpg" class="product-image"></td>
+                <td>Молоток - гвоздодёр</td>
+                <td>Можно и постучать и потом достать</td>
+                <td><button class="btn btn-warning" title="В корзину" onclick="alert('Товар добавлен в корзину')">
+                    <i class="bi bi-cart"></i> <span class="d-none d-md-inline">149</span>
+                </button></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <button class="btn btn-secondary" title="В корзину" onclick="location.href='products.html'">
+            <i class="bi bi-boxes"></i> <span class="d-none d-md-inline"> Тоже самое, но в карточках</span>
+        </button>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
